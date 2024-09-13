@@ -1,0 +1,10 @@
+// Comandos
+    javac   #Compiler
+    java 'Class'    #Run app
+
+// Documentação lib Jframe    
+    https://docs.oracle.com/javase%2Ftutorial%2F/uiswing/components/frame.html
+
+// Meta:
+    grid com A*
+    rato -> queijo    
