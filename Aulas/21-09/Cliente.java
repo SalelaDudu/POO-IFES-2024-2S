@@ -1,4 +1,4 @@
-class Cliente{
+abstract class Cliente{
 
     private int numeroConta;
     private String agencia;
@@ -62,7 +62,5 @@ class Cliente{
                 return true;
             }        
     }
-    public void imprimirExtrato(){
-        System.out.println("Valor em conta: " + getSaldo());
-    }
+    abstract public void imprimirExtrato();
 }
