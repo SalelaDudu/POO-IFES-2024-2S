@@ -25,8 +25,9 @@ class PessoaFisica extends Cliente {
     public void setNome(String nome) {
         this.nome = nome;
     };
-
-    public void imprimirExtrato(){
+    
+    @Override
+    public void imprimirExtrato(){    
         System.out.println("Nome " + getNome() + "\nCpf: " + getCpf() + "\nAgência: " + getAgencia() + "\n Numer da conta: " + getNumeroConta());
     }
 }
